@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>乐卡包官网</title>
+<link rel="stylesheet" href="css/bace/bace.css">
+<link rel="stylesheet" href="css/page/index.css">
+<style>
+	.top{
+		width:100%;
+		height:730px;
+		background:url("img/indexBack.png") right top;
+    	background-size: cover;
+	}
+	.login{
+		width: 100%;
+		height: 64px;
+		padding-top: 26px;
+	}
+	.login_right{
+		float:right;
+		height:64px;
+		padding-right:6px;
+	}
+	.top1_left{
+		float: left;
+		padding-left: 25px;
+	}
+	.login_right li{
+		float: left;
+		height: 44px;
+		line-height: 48px;
+		padding-top: 20px;
+	}
+	.login_right li a {
+		display: block;
+		height: 40px;
+		padding: 0 14px;
+		color: #000;
+		font-size:14px;
+	}
+	.login_right li .checked {
+		border-bottom: 2px solid #e71f10;
+		color: #e71f10;
+	}
+	.nav{
+		width:750px;
+		height:300px;
+		/*background: #f2f2f2;*/
+		margin: 100px auto 0px;
+		text-align:center;
+	}
+	.nav_1{
+		font-size:28px;
+		color: #e71f19;
+	}
+	.nav_3{
+        color: #e71f19;
+        font-size: 14px;
+        /* padding-top: 20px; */
+        height: 50px;
+        line-height: 40px;
+	}
+	.nav_1 span:nth-of-type(1){
+		border: 1px solid #fff;
+		margin:0 auto;
+		display:block;
+		width:100px;
+		margin-top: 8px
+	}
+	.nav_1 span:nth-of-type(2){
+		border: 1px solid #fff;
+		margin: 0 auto;
+		display: block;
+		width: 64px;
+		margin-top: 8px;
+	 }
+	 .nav_2{
+		 width: 730px;
+		 height: 165px;
+		 background: rgba(255,255,255,0.3);
+		 margin-top: 30px;
+		 padding: 10px;
+	 }
+	 .nav2_b{
+		 height: 160px;
+		 line-height:160px;
+		 border: 2px solid #fff;
+		 font-size:44px;
+		 color:#000;
+		 letter-spacing: 3px;
+	 }
+	.introduce{
+		width: 750px;
+		height: 794px;
+		background: #fff;
+		margin: 0 auto;
+		position: relative;
+		top: -90px;
+		text-align: center;
+        background:#fff url("img/spot.png") right bottom no-repeat;
+        box-shadow: 1px 1px 47px #999;
+	}
+	.introduce h3{
+		font-size:44px;
+		height:170px;
+		line-height:170px;
+	}
+    .introduce ul li{
+        float:left;
+        text-align:center;
+    }
+    .introduce_ul{
+        overflow: hidden;
+        padding: 0px 28px 0 48px;
+    }
+    .introduce_ul li{
+        width:25%;
+    }
+    .introduce_ul li span{
+        display: block;
+    }
+    .introduce_ul li span:nth-of-type(1){
+        height: 100px;
+        line-height: 100px;
+    }
+    .introduce_ul li span:nth-of-type(2){
+        font-size: 26px;
+        font-weight: bold;
+        color:#f66475;
+    }
+    .introduce_server{
+        padding-top: 8px;
+    }
+    .introduce h4{
+        font-size: 32px;
+        color: #f66475;
+        padding-top: 124px;
+    }
+    .introduce_ul2{
+        padding: 0 45px;
+    }
+    .introduce_ul2 li{
+        width: 140px;
+        height: 70px;
+        padding: 36px 0;
+        line-height: 35px;
+        background: #f66475;
+        border-radius: 50%;
+        margin: 54px 40px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .intPicture h3{
+        text-align: center;
+    }
+    .intPicture h3 span{
+        display: block;
+        width: 49px;
+        height: 3px;
+        background: #e61911;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    .intPicture h3 p{
+        margin-bottom: 58px;
+        color: #e61911;
+    }
+    .intPiCont{
+        width:820px;
+        height:820px;
+        margin: 0 auto;
+        position: relative;
+		font-size: 16px;
+		line-height: 30px;
+    }
+    .intPicture_1 img{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .intPicture_1 div{
+		padding: 42px 0 42px 62px;
+		width: 222px;
+		background: url("img/jian.png") right 78px no-repeat;
+	}
+	
+	.intPicture_2>img{
+		position:absolute;
+		top: 156px;
+	}
+	.intPicture_2 div{
+		padding-top: 158px;
+		padding-left: 600px;
+		position:relative;
+	}
+	.intPicture_2 div img{
+		position: absolute;
+		right: 250px;
+		bottom: 7px;
+		transform: rotate(180deg);
+	}
+	.intPicture_3{
+		padding-top:68px;
+	}
+	.intPicture_3>img{
+		margin:0 auto;
+		display:block;
+	}
+	.intPicture_3 div{
+		padding-left: 190px;
+		padding-top: 50px;
+		position: relative;
+	}
+	.intPicture_3 div img{
+		position: absolute;
+		left: 197px;
+		top: 26px;
+		transform: rotate(270deg);
+	}
+
+</style>
+</head>
+<body>
+<div class="top">
+	<div class="login">
+		<ul class="top1_left">
+			<a href="index.html">
+				<img src="img/logo.png" alt="">
+				<li>
+					<h3>北京乐卡包网络科技有限公司</h3>
+					<span>Beijing Lekabao Science and Technology Co.,Ltd</span>
+				</li>
+			</a>
+		</ul>
+		<div class="login_right">
+			<li><a href="" class="checked">首页</a></li>
+			<li><a href="leka.html">乐卡包</a></li>
+			<li><a href="function.html">产品功能</a></li>
+			<li><a href="cooperation.html">品牌合作</a></li>
+			<li><a href="case.html">经典案例</a></li>
+			<li><a href="consult.html">业态咨询</a></li>
+			<li><a href="bay.html">申请购买</a></li>
+			<li><a href="our.html">联系我们</a></li>
+		</div>
+	</div>
+	<div class="nav">
+		<div class="nav_1">
+			<p>乐卡包</p>
+			<span></span>
+			<span></span>
+		</div>
+		<div class="nav_2">
+			<div class="nav2_b">全功能一体化智能餐饮SAAS系统</div>
+		</div>
+		<div class="nav_3">专注于连锁品牌</div>
+	</div>
+</div>
+<div class="content">
+	<div class="introduce">
+		<h3>软件介绍</h3>
+		<ul class="introduce_ul">
+			<li>
+				<span><img src="img/silver.png" alt=""></span>
+                <span>收银</span>
+			</li>
+			<li>
+                <span><img class="introduce_server" src="img/vip.png" alt=""></span>
+                <span>会员</span>
+			</li>
+			<li>
+                <span><img src="img/phone.png" alt=""></span>
+                <span>手机点餐</span>
+			</li>
+			<li>
+                <span><img src="img/order.png" alt=""></span>
+                <span>支付</span>
+			</li>
+		</ul>
+        <h4>全功能供应链</h4>
+        <ul class="introduce_ul2">
+            <li>门店<br>进销存</li>
+            <li>配送中心<br>进销存</li>
+            <li>中央厨房<br>生产管理</li>
+        </ul>
+	</div>
+	<div class="intPicture">
+        <h3>
+            <span></span>
+            <p>乐卡包.让品牌真正连接到客户</p>
+        </h3>
+        <div class="intPiCont">
+            <div class="intPicture_1">
+                <div>
+                    乐食派<br>全面提升效率，储值狂增
+                </div>
+                <img src="img/intPicture_1.png" alt="">
+            </div>
+            <div class="intPicture_2">
+                <img src="img/intPicture_2.png" alt="">
+                <div>
+					乐食派<br>全面提升效率，储值狂增
+					<img src="img/jian.png" alt="">
+                </div>
+            </div>
+            <div class="intPicture_3">
+                <img src="img/intPicture_3.png" alt="">
+                <div>
+					乐食派<br>全面提升效率，储值狂增
+					<img src="img/jian.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="foot">
+    <div class="footTop">
+        <ul class="footTopLe">
+            <li>网址：www.lekabao.cn</li>
+            <li>联系方式：85524665-214</li>
+            <li>公司地址：北京市朝阳区朝阳北路103号金泰国益1711室</li>
+        </ul>
+        <span></span>
+        <ul class="footTopRig">
+            <img src="img/code.jpg">
+            <span>扫描二维码</br>添加关注</span>
+        </ul>
+    </div>
+    <div class="foot">
+        <a target="_blank" href="http://www.miitbeian.gov.cn/"><p>京ICP备16004431号-2</p></a>
+        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502032732"><p><img src="img/gonganbeian.png">京公网安备 11010502032732号</p></a>
+        <p>北京乐卡包网络科技有限公司</p>
+    </div>
+</div>
+</body>
+
+</html>

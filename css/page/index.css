@@ -1,0 +1,22 @@
+@media screen and (max-width: 1124px) {
+    .login_right li a {
+        display: block;
+        height: 40px;
+        padding: 0px 10px !important;
+        color: #000;
+        font-size: 14px;
+    }
+    .top1_left img{
+        width:60px;
+        height:60px;
+    }
+    .top1_left li {
+        display: inline-block;
+        position: relative;
+        top: -2px;
+    }
+    .login_right li {
+        padding-top: 18px !important;
+    }
+
+}
